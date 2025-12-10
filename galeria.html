@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>C.G. - Galería</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">
+  <a href="index.html">
+    <img src="images/logo.png" alt="Logo" style="height:40px;">
+  </a>
+</div>
+      <nav class="nav">
+        <a href="index.html">Inicio</a>
+        <a href="galeria.html" class="active">Galería</a>
+        <a href="presupuesto.html">Presupuesto</a>
+        <a href="contacto.html">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Galería</h1>
+    <p>Galería dinámica creada con JavaScript.</p>
+
+    <div id="gallery" class="gallery-grid"></div>
+
+    <!-- Modal para la imagen -->
+    <div id="lightbox" class="lightbox" aria-hidden="true">
+      <button id="lb-close" class="lb-close" aria-label="Cerrar">✕</button>
+      <img id="lb-img" src="" alt="Imagen ampliada">
+      <p id="lb-caption"></p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Footer - Galería</p>
+    </div>
+  </footer>
+
+  <script src="js/galeria.js"></script>
+</body>
+</html>

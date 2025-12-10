@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>C.G. - Presupuesto</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">
+  <a href="index.html">
+    <img src="images/logo.png" alt="Logo" style="height:40px;">
+  </a>
+</div>
+      <nav class="nav">
+        <a href="index.html">Inicio</a>
+        <a href="galeria.html">Galería</a>
+        <a href="presupuesto.html" class="active">Presupuesto</a>
+        <a href="contacto.html">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Pedir Presupuesto</h1>
+    <form id="form-presupuesto" novalidate>
+      <fieldset>
+        <legend>Datos de contacto</legend>
+        <label>
+          Nombre:
+          <input id="nombre" name="nombre" type="text" maxlength="15" required>
+          <small class="error" id="err-nombre"></small>
+        </label>
+        <label>
+          Apellidos:
+          <input id="apellidos" name="apellidos" type="text" maxlength="40" required>
+          <small class="error" id="err-apellidos"></small>
+        </label>
+        <label>
+          Teléfono:
+          <input id="telefono" name="telefono" type="tel" maxlength="9" required>
+          <small class="error" id="err-telefono"></small>
+        </label>
+        <label>
+          Correo:
+          <input id="email" name="email" type="email" required>
+          <small class="error" id="err-email"></small>
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Presupuesto</legend>
+
+        <div class="product-options">
+          <p>Producto (elige uno):</p>
+          <label><input type="radio" name="producto" value="50" checked> Básico - 50€</label>
+          <label><input type="radio" name="producto" value="120"> Estándar - 120€</label>
+          <label><input type="radio" name="producto" value="250"> Premium - 250€</label>
+        </div>
+
+        <label>
+          Plazo (meses):
+          <input id="plazo" name="plazo" type="number" min="1" value="1">
+          <small class="note">El plazo aplica descuentos automáticos (ver descripción).</small>
+        </label>
+
+        <div class="extras">
+          <p>Extras (puedes marcar varios):</p>
+          <label><input type="checkbox" name="extra" value="30"> Soporte adicional - 30€</label>
+          <label><input type="checkbox" name="extra" value="50"> Diseño personalizado - 50€</label>
+          <label><input type="checkbox" name="extra" value="10"> Hosting (mensual) - 10€</label>
+        </div>
+
+        <label>
+          Presupuesto final:
+          <input id="presupuesto-final" type="text" readonly value="0 €">
+        </label>
+
+        <label class="condiciones">
+          <input id="acepto" type="checkbox" required> Acepto las condiciones de privacidad.
+        </label>
+
+        <div class="form-actions">
+          <button id="btn-reset" type="reset">Resetear</button>
+          <button id="btn-send" type="button" disabled>Enviar presupuesto</button>
+        </div>
+
+      </fieldset>
+    </form>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Footer - Presupuesto</p>
+    </div>
+  </footer>
+
+  <script src="js/presupuesto.js"></script>
+</body>
+</html>

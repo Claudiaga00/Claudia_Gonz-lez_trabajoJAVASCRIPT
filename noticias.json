@@ -1,0 +1,20 @@
+[
+  {
+    "titulo": "Lanzamiento de servicio web",
+    "fecha": "2025-09-01",
+    "resumen": "Presentamos nuestro nuevo servicio con funcionalidades avanzadas y atención 24/7.",
+    "link": "#"
+  },
+  {
+    "titulo": "Nueva versión del producto Premium",
+    "fecha": "2025-08-15",
+    "resumen": "Mejoras en rendimiento y nueva interfaz adaptada a móviles.",
+    "link": "#"
+  },
+  {
+    "titulo": "Charlas y talleres gratuitos",
+    "fecha": "2025-07-20",
+    "resumen": "Talleres mensuales sobre desarrollo web y marketing digital.",
+    "link": "#"
+  }
+]

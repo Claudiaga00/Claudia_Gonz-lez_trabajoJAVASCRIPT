@@ -2,15 +2,15 @@
 
 ## Datos del Alumno
 Nombre: [Claudia]
-Apellido: [González]
+Apellido: [Gonzalez]
 
 ## Requisitos de Entrega
 
 1.  **Dirección del Repositorio de GitHub (Código Fuente):**
-    [Pega aquí el enlace a tu repositorio público, por ejemplo: `https://github.com/ClaudiaG/trabajo-js`]
+    [(https://github.com/Claudiaga00/Claudia_Gonz-lez_trabajoJAVASCRIPT.git)]
 
 2.  **Dirección del Hosting de GitHub Pages (Web Publicada):**
-    [Pega aquí el enlace a la web funcionando, por ejemplo: `https://claudiag.github.io/trabajo-js/`]
+    [(https://claudiaga00.github.io/Claudia_Gonz-lez_trabajoJAVASCRIPT/)]
 
 ---
 
